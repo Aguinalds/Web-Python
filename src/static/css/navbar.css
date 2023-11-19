@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.navbar-logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+    display: flex;
+    align-items: center; /* Adicionado para centralizar verticalmente o texto e o ícone */
+}
+
+.navbar-logo img {
+    margin-right: 10px; /* Espaçamento entre o ícone do Twitter e o texto do logo */
+    width: 30px; /* Defina a largura desejada para o ícone do Twitter */
+    height: auto;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links li {
+    margin-right: 40px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+.material-symbols-outlined {
+    font-size: 24px;
+    margin-right: 5px;
+}
